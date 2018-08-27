@@ -1,0 +1,118 @@
+The Kruskal's Minimum Spanning Tree (MST) algorithm is implemented here using C++11
+
+A graph class is implemented in graph.cpp and graph.h
+
+A minimum spanning tree class is implemented in min_spanning.cpp and min_spanning.h
+
+The quicksort algorithm is implemented in quick_sort.cpp and quick_sort.h
+
+The closed set keeps track of the node numbers, with each row in the vector of vectors of int corresponding to one tree.
+As we combine trees, the number of rows decreases. The columns are padded with -1 to fill up. 
+In the end, we have just one row as only one tree will be left, i.e., the MST.
+
+The code runs fine for several different values for the number of nodes. 
+Number of nodes was varied from 5-50 and the number of edges in the MST was always found to be one less, as expected.
+The sum of the edges in the MST was also evaluated.
+
+Here is code output for 10 nodes: 
+
+kb@kb-M51AC:~/ira_pohl/c1w3$ ./run.exe 
+number of nodes: 10
+density: 1
+low and high edge values: 1 10
+number of edges in open set: 45 
+---------
+0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+2 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+4 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+6 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+7 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+8 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+9 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+2 8 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+4 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+6 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+7 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+9 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+1 9 -1 -1 -1 -1 -1 -1 -1 -1 
+2 8 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+4 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+6 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+7 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 6 -1 -1 -1 -1 -1 -1 -1 -1 
+1 9 -1 -1 -1 -1 -1 -1 -1 -1 
+2 8 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+4 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+7 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 6 4 -1 -1 -1 -1 -1 -1 -1 
+1 9 -1 -1 -1 -1 -1 -1 -1 -1 
+2 8 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+7 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 6 4 2 8 -1 -1 -1 -1 -1 
+1 9 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+7 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 6 4 2 8 7 -1 -1 -1 -1 
+1 9 -1 -1 -1 -1 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+---------
+0 6 4 2 8 7 -1 -1 -1 -1 
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 -1 -1 -1 -1 -1 -1 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+3 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+5 1 9 0 6 4 2 8 7 -1 
+---------
+5 1 9 0 6 4 2 8 7 3 
+---------
+---------
+idx: 15
+iclosed: 9
+number of entries in closed set: 9
+
+edges corresponding to minimum spanning tree: 
+(2 , 8); (1 , 9); (0 , 6); (0 , 4); (0 , 8); (6 , 7); (5 , 9); (1 , 4); (2 , 3); number of edges in MST: 9
+
+total sum of edges of minimum spanning tree: 16.3155
+done! 
+

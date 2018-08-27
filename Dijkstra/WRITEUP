@@ -1,0 +1,58 @@
+The Dijkstra algorithm is implemented here using C++11
+
+A priority queue class is implemented in queue.cpp and queue.h
+
+A graph class is implemented in graph.cpp and graph.h
+
+A shortest path class is implemented in shortest_path.cpp and shortest_path.h
+
+
+Here are code outputs for different parameter values:
+
+kb@kb-M51AC:~/ira_pohl/c1w2$ make clean
+rm *.exe
+kb@kb-M51AC:~/ira_pohl/c1w2$ make
+g++ -std=c++11 dijkstra.cpp graph.cpp queue.cpp shortest_path.cpp -o run.exe
+./kb@kb-M51AC:~/ira_pohl/c1w2$ ./run.exe 
+
+
+number of nodes: 50
+density: 0.1
+low and high edge values: 1 10
+is_connected(): 0 
+path length between nodes 5 and 28: 10.8128 
+list of vertices: 
+5 18 48 6 8 28 
+number of monte carlo runs: 48
+average path length: 8.98883
+done! 
+
+
+
+number of nodes: 50
+density: 0.2
+low and high edge values: 1 10
+is_connected(): 1 
+path length between nodes 20 and 6: 6.90905 
+list of vertices: 
+20 32 31 6 
+number of monte carlo runs: 49
+average path length: 7.14546
+done! 
+
+
+number of nodes: 50
+density: 0.4
+low and high edge values: 1 10
+is_connected(): 1 
+path length between nodes 41 and 35: 3.40312 
+list of vertices: 
+41 29 35 
+number of monte carlo runs: 49
+average path length: 5.15046
+done! 
+
+
+As the density increases, the average path length and the number of nodes visited in the path also decrease. This is evident as we now have more options to go from A to B.
+The is_connected returned false (i.e., 0) for density = 0.1; but for higher densities, is_connected is true (i.e., 1). This is also as expected.  
+ 

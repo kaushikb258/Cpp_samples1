@@ -1,0 +1,1196 @@
+number of sides in hex: 7
+now play hex 
+hex board: 
+-------------------------
+0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 
+player2 nodes: 
+player 1's turn 
+r = 0; c = 6
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 
+player2 nodes: 
+player 2's turn 
+r = 2; c = 3
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  0 0 0 2 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 
+player2 nodes: 17 
+player 1's turn 
+r = 3; c = 3
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  0 0 0 2 0 0 0 
+   0 0 0 1 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 
+player2 nodes: 17 
+player 2's turn 
+r = 2; c = 0
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  2 0 0 2 0 0 0 
+   0 0 0 1 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 
+player2 nodes: 17 14 
+player 1's turn 
+r = 5; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 
+player2 nodes: 17 14 
+player 1's turn 
+r = 4; c = 1
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  2 0 0 2 0 0 0 
+   0 0 0 1 0 0 0 
+    0 1 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 
+player2 nodes: 17 14 
+player 2's turn 
+r = 3; c = 0
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  2 0 0 2 0 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 
+player2 nodes: 17 14 21 
+player 1's turn 
+r = 4; c = 3
+valid entry 
+hex board: 
+-------------------------
+0 0 0 0 0 0 1 
+ 0 0 0 0 0 0 0 
+  2 0 0 2 0 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 
+player2 nodes: 17 14 21 
+player 2's turn 
+r = 0; c = 3
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 0 0 0 0 0 0 
+  2 0 0 2 0 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 
+player2 nodes: 17 14 21 3 
+player 1's turn 
+r = 1; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 
+player2 nodes: 17 14 21 3 
+player 1's turn 
+r = 1; c = 5
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 0 0 0 0 1 0 
+  2 0 0 2 0 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 
+player2 nodes: 17 14 21 3 
+player 2's turn 
+r = 4; c = 5
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 0 0 0 0 1 0 
+  2 0 0 2 0 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 
+player2 nodes: 17 14 21 3 33 
+player 1's turn 
+r = 2; c = 4
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 0 0 0 0 1 0 
+  2 0 0 2 1 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 
+player2 nodes: 17 14 21 3 33 
+player 2's turn 
+r = 5; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 
+player2 nodes: 17 14 21 3 33 
+player 2's turn 
+r = 5; c = 1
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 0 0 0 0 1 0 
+  2 0 0 2 1 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 
+player2 nodes: 17 14 21 3 33 36 
+player 1's turn 
+r = 1; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 
+player2 nodes: 17 14 21 3 33 36 
+player 1's turn 
+r = 2; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 
+player2 nodes: 17 14 21 3 33 36 
+player 1's turn 
+r = 2; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 
+player2 nodes: 17 14 21 3 33 36 
+player 1's turn 
+r = 1; c = 1
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 1 0 0 0 1 0 
+  2 0 0 2 1 0 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 
+player2 nodes: 17 14 21 3 33 36 
+player 2's turn 
+r = 2; c = 5
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 1 0 0 0 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 
+player2 nodes: 17 14 21 3 33 36 19 
+player 1's turn 
+r = 1; c = 2
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 1 1 0 0 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 
+player 2's turn 
+r = 4; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 
+player 2's turn 
+r = 5; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 
+player 2's turn 
+r = 6; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 
+player 2's turn 
+r = 2; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 
+player 2's turn 
+r = 1; c = 4
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 11 
+player 1's turn 
+r = 5; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 
+player2 nodes: 17 14 21 3 33 36 19 11 
+player 1's turn 
+r = 6; c = 5
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 0 1 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 
+player2 nodes: 17 14 21 3 33 36 19 11 
+player 2's turn 
+r = 6; c = 4
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 0 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 2 1 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 1's turn 
+r = 5; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 1's turn 
+r = 7; c = 4
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 1's turn 
+r = 3; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 1's turn 
+r = 0; c = 4
+valid entry 
+hex board: 
+-------------------------
+0 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 2 1 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 2's turn 
+r = 2; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 2's turn 
+r = 7; c = 5
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 
+player2 nodes: 17 14 21 3 33 36 19 11 46 
+player 2's turn 
+r = 0; c = 0
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 2 1 0 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 
+player 1's turn 
+r = 7; c = 6
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 
+player 1's turn 
+r = 5; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 
+player 1's turn 
+r = 6; c = 6
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 0 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 
+player 2's turn 
+r = 7; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 
+player 2's turn 
+r = 7; c = 1
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 
+player 2's turn 
+r = 3; c = 2
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 0 2 1 2 0 
+   2 0 2 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 
+player 1's turn 
+r = 6; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 
+player 1's turn 
+r = 7; c = 5
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 
+player 1's turn 
+r = 2; c = 2
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 0 
+      0 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 
+player 2's turn 
+r = 5; c = 6
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 2 
+      0 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 
+player 1's turn 
+r = 6; c = 0
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 0 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 2 
+      1 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 
+player 2's turn 
+r = 7; c = 1
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 
+player 2's turn 
+r = 0; c = 5
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 0 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 2 
+      1 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 
+player 1's turn 
+r = 0; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 
+player 1's turn 
+r = 2; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 
+player 1's turn 
+r = 3; c = 4
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 1 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 2 
+      1 0 0 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 
+player 2's turn 
+r = 3; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 
+player 2's turn 
+r = 6; c = 2
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 1 0 0 
+    0 1 0 1 0 2 0 
+     0 2 0 0 0 0 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 
+player 1's turn 
+r = 5; c = 0
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 1 0 0 
+    0 1 0 1 0 2 0 
+     1 2 0 0 0 0 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 
+player 2's turn 
+r = 1; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 
+player 2's turn 
+r = 7; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 
+player 2's turn 
+r = 2; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 
+player 2's turn 
+r = 1; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 
+player 2's turn 
+r = 4; c = 2
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 1 0 0 
+    0 1 2 1 0 2 0 
+     1 2 0 0 0 0 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 
+player 1's turn 
+r = 5; c = 5
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 0 2 1 1 0 0 
+    0 1 2 1 0 2 0 
+     1 2 0 0 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 
+player 2's turn 
+r = 3; c = 1
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 0 0 
+    0 1 2 1 0 2 0 
+     1 2 0 0 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 
+player 1's turn 
+r = 2; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 
+player 1's turn 
+r = 4; c = 6
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 0 0 
+    0 1 2 1 0 2 1 
+     1 2 0 0 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 
+player 2's turn 
+r = 5; c = 3
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 0 0 
+    0 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 
+player 1's turn 
+r = 7; c = 5
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 
+player 1's turn 
+r = 3; c = 6
+valid entry 
+hex board: 
+-------------------------
+2 0 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 0 1 
+    0 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 
+player 2's turn 
+r = 0; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 
+player 2's turn 
+r = 7; c = 0
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 
+player 2's turn 
+r = 1; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 
+player 2's turn 
+r = 0; c = 1
+valid entry 
+hex board: 
+-------------------------
+2 2 0 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 0 1 
+    0 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 2; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 0; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 4; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 6; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 1; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 2; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 7; c = 5
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 1; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 6; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 7; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 1; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 1's turn 
+r = 0; c = 2
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 0 1 
+    0 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 3; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 3; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 7; c = 6
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 0; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 2; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 7; c = 2
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 1; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 5; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 0; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 5; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 3; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 6; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 5; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 5; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 7; c = 1
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 6; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 2; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 0; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 1; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 
+player 2's turn 
+r = 3; c = 5
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 0 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    0 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 1's turn 
+r = 5; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 1's turn 
+r = 7; c = 0
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 1's turn 
+r = 3; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 1's turn 
+r = 1; c = 3
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    0 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 2's turn 
+r = 7; c = 6
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 2's turn 
+r = 0; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 2's turn 
+r = 1; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 
+player 2's turn 
+r = 4; c = 0
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    2 1 2 1 0 2 1 
+     1 2 0 2 0 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 1's turn 
+r = 5; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 1's turn 
+r = 0; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 1's turn 
+r = 5; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 1's turn 
+r = 5; c = 4
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    2 1 2 1 0 2 1 
+     1 2 0 2 1 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 2; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 2; c = 4
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 3; c = 1
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 6; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 1; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 4; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 2; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 4; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 2; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 3; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 4; c = 3
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 1; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 6; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 2; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 2; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 0; c = 2
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 6; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 6; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 0; c = 6
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 
+player 2's turn 
+r = 4; c = 4
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    2 1 2 1 2 2 1 
+     1 2 0 2 1 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 
+player 1's turn 
+r = 3; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 
+player 1's turn 
+r = 5; c = 2
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 0 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    2 1 2 1 2 2 1 
+     1 2 1 2 1 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 
+player 2's turn 
+r = 2; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 
+player 2's turn 
+r = 3; c = 5
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 
+player 2's turn 
+r = 7; c = 7
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 
+player 2's turn 
+r = 2; c = 1
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 2 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    2 1 2 1 2 2 1 
+     1 2 1 2 1 1 2 
+      1 0 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 15 
+player 1's turn 
+r = 7; c = 2
+invalid entry, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 15 
+player 1's turn 
+r = 4; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 15 
+player 1's turn 
+r = 6; c = 0
+node occupied, please try again 
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 15 
+player 1's turn 
+r = 6; c = 1
+valid entry 
+hex board: 
+-------------------------
+2 2 1 2 1 2 1 
+ 0 1 1 1 2 1 0 
+  2 2 1 2 1 2 0 
+   2 2 2 1 1 2 1 
+    2 1 2 1 2 2 1 
+     1 2 1 2 1 1 2 
+      1 1 2 0 2 1 1 
+-------------------------
+player1 nodes: 6 24 29 31 12 18 8 9 47 4 48 16 42 25 35 40 34 27 2 10 39 37 43 
+player2 nodes: 17 14 21 3 33 36 19 11 46 0 23 41 5 44 30 22 38 1 26 28 32 15 
+found north-south path between nodes 6 42 
+path: 6 12 18 24 31 37 43 42 
+******************************************
+player1 (North-South) wins 
+******************************************
+game ended 
+done! 

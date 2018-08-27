@@ -1,0 +1,269 @@
+kb@kb-M51AC:~/ira_pohl/hex_mc$ make
+g++ -std=c++11 main_hex.cpp graph.cpp queue.cpp class_hex.cpp -o run.exe
+./kb@kb-M51AC:~/ira_pohl/hex_mc$ ./run.exe 
+number of sides in hex: 7
+now play hex 
+game started by player 1
+enter human player (1/2): 
+1
+hex board: 
+-------------------------
+0 0 0 0 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+r = 0; c = 3
+valid entry 
+hex board: 
+-------------------------
+0 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 0 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+r = 5; c = 6
+valid entry 
+hex board: 
+-------------------------
+0 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+r = 0; c = 0
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 0 0 0 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 0.557
+best for opponent: 0.581
+ibest/ibest_opponent: 34 39
+r = 5; c = 1
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 0 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 2 0 0 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+best for me: 0.548
+best for opponent: 0.645
+ibest/ibest_opponent: 16 29
+r = 2; c = 4
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 2 0 0 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 0.551
+best for opponent: 0.586
+ibest/ibest_opponent: 33 33
+r = 5; c = 2
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 0 0 0 
+    0 0 0 0 0 0 0 
+     0 2 2 0 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+best for me: 0.539
+best for opponent: 0.699
+ibest/ibest_opponent: 33 22
+r = 3; c = 4
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 0 0 0 
+     0 2 2 0 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 0.602
+best for opponent: 0.603
+ibest/ibest_opponent: 32 28
+r = 5; c = 3
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 0 0 0 
+     0 2 2 2 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+best for me: 0.5
+best for opponent: 0.779
+ibest/ibest_opponent: 32 28
+r = 4; c = 4
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 1 0 0 
+     0 2 2 2 0 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 0.711
+best for opponent: 0.701
+ibest/ibest_opponent: 31 31
+r = 5; c = 4
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 1 0 0 
+     0 2 2 2 2 0 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+best for me: 0.42
+best for opponent: 0.898
+ibest/ibest_opponent: 31 31
+r = 5; c = 5
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 1 0 0 
+     0 2 2 2 2 1 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 0.794
+best for opponent: 0.66
+ibest/ibest_opponent: 28 28
+r = 4; c = 5
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 1 2 0 
+     0 2 2 2 2 1 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+best for me: 0.298
+best for opponent: 0.916
+ibest/ibest_opponent: 30 29
+r = 5; c = 0
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 1 2 0 
+     1 2 2 2 2 1 2 
+      0 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 0.933
+best for opponent: 0.508
+ibest/ibest_opponent: 29 29
+r = 6; c = 0
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 0 
+    0 0 0 0 1 2 0 
+     1 2 2 2 2 1 2 
+      2 0 0 0 0 0 0 
+-------------------------
+player 1's turn 
+best for me: 0.213
+best for opponent: 1
+ibest/ibest_opponent: 28 23
+r = 3; c = 6
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 1 
+    0 0 0 0 1 2 0 
+     1 2 2 2 2 1 2 
+      2 0 0 0 0 0 0 
+-------------------------
+player 2's turn 
+best for me: 1
+best for opponent: 0.363
+ibest/ibest_opponent: 27 27
+r = 4; c = 6
+valid entry 
+hex board: 
+-------------------------
+1 0 0 1 0 0 0 
+ 0 0 0 0 0 0 0 
+  0 0 0 0 1 0 0 
+   0 0 0 0 1 0 1 
+    0 0 0 0 1 2 2 
+     1 2 2 2 2 1 2 
+      2 0 0 0 0 0 0 
+-------------------------
+player 2 won 
+game ended 
+done! 
+
